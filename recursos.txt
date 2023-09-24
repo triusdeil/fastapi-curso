@@ -12,3 +12,9 @@ conda env export > environment.yaml
 
 5-conda import environment
 conda env create -f environment.yaml
+
+6-requirements.txt export
+pip freeze > requirements.txt
+
+7-install requirements.txt
+pip install -r requirements.txt
